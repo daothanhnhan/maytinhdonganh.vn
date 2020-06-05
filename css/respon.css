@@ -1,0 +1,77 @@
+@media screen and (max-width: 992px) {
+    .hottline-b {
+        display: none;
+    }
+    a.checkserial {
+        display: none;
+    }
+    .danhmucsp-header {
+        display: none;
+    }.icon-mangxahoi.col-md-2 {
+        display: none;
+    }
+    .menunav.rơw {
+        background: none;
+        border: none;
+    }
+    .cart-homearea.col-md-2 {
+        /* background: navajowhite; */
+        display: none;
+    }
+    .mobile-nav .menu-mobile-nav {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        /* width: 40px; */
+        height: 30px;
+        border: 1px solid #0136ff;
+        position: absolute;
+        color: #fff;
+        background: #205dab;
+        top: 67px;
+        right: 20px;
+        z-index: 9999;
+        padding: 0 10px;
+    }
+   .menu-mobile-nav span {
+        font-size: 11px;
+      
+    }
+}
+@media screen and (max-width: 767px) {
+    .menunav .cat_search, .menunav .input_search, .menunav .submit_search {
+        border: none;
+        outline: none;
+        float: left;
+        height: 19px;
+        line-height: 15px;
+        background: none;
+        z-index: 99999999999;
+    }
+    .menunav .cat_search {
+        font-size: 10px;
+        padding-left: 8px;
+        /* width: 155px; */
+        height: 20px;
+    }
+    .menunav .input_search {
+        font-size: 9px;
+        /* width: 315px; */
+        height: 20px;
+    }
+   
+    .product-home .wrapper-pro .pro-item {
+        /* width: 229px; */
+        float: left;
+        /* margin-right: 11px; */
+        margin-bottom: 20px;
+        position: relative;
+        width: 100%;
+    }
+}
